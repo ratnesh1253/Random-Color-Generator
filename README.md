@@ -1,4 +1,4 @@
-```markdown
+
 # Random Color Generator
 
 This project is a simple web application that generates a random color and updates the background color of a div element on a button click. It also displays the generated color code and adds a message indicating that a new color has been generated.
@@ -37,74 +37,6 @@ This project is a simple web application that generates a random color and updat
 - `index.html`: The HTML file that sets up the structure of the web page.
 - `style.css`: The CSS file that styles the web page.
 - `app.js`: The JavaScript file that contains the logic for generating random colors and updating the DOM.
-
-## Code Overview
-
-### HTML
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h3>Generate a random color</h3>
-    <br>
-    <button>Click to Generate Color</button>
-    <br><br>
-    <div>This is generated color</div>
-
-    <script src="app.js"></script>
-</body>
-
-</html>
-```
-
-### CSS
-
-```css
-body {
-    text-align: center;
-}
-
-div {
-    height: 100px;
-    width: 500px;
-    border: 2px solid black;
-    margin: auto;
-}
-```
-
-### JavaScript
-
-```javascript
-let btn = document.querySelector("button");
-
-btn.addEventListener("click", function () {
-  let randomColor = getRandomColor();
-  let h3 = document.querySelector("h3");
-  h3.innerText = randomColor;
-  document.querySelector("div").style.backgroundColor = randomColor;
-  let h4 = document.createElement("h4");
-  h4.innerText = "new color generated!";
-  document.querySelector("body").insertAdjacentElement("beforeend", h4);
-});
-
-function getRandomColor() {
-  let red = Math.floor(Math.random() * 255);
-  let green = Math.floor(Math.random() * 255);
-  let blue = Math.floor(Math.random() * 255);
-
-  let color = `rgb(${red}, ${green}, ${blue})`;
-  return color;
-}
-```
 
 ## Contact
 
