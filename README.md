@@ -20,7 +20,7 @@ This project is a simple web application that generates a random color and updat
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/random-color-generator.git
+    git clone https://github.com/ratnesh1253/random-color-generator.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -40,5 +40,5 @@ This project is a simple web application that generates a random color and updat
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact me at (email)[mailto:ratneshkshirsagar1253@gmail.com].
+If you have any questions or feedback, feel free to contact me at [email](mailto:ratneshkshirsagar1253@gmail.com).
 ```
