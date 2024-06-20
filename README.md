@@ -12,9 +12,9 @@ This project is a simple web application that generates a random color and updat
 
 ### Screenshot
 
-![Random Color Generator](Screenshot1.JPG)
-![Random Color Generator](Screenshot2.JPG)
-![Random Color Generator](Screenshot3.JPG)
+![Random Color Generator](assets/Screenshot1.JPG)
+![Random Color Generator](assets/Screenshot2.JPG)
+![Random Color Generator](assets/Screenshot3.JPG)
 
 ### Installation
 
